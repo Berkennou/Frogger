@@ -84,6 +84,7 @@ public class Infrog implements IFrog {
             this.dernierMouvement=Direction.down;
              Inenvironment.infinity();
 
+
         }
 
     }

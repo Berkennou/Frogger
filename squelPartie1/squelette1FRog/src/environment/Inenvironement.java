@@ -28,7 +28,6 @@ public class Inenvironment implements IEnvironment {
                 this.lesVois.get(i) =this.lesVois.get(i+1);
             }
             this.lesVois.add(new Lane(game,game.height, game.defaultDensity));
-
         }
         else if(frog.Infrog.getDirection() == Direction.down){
             this.lesVois.remove(game,game.height,game.defaultDensity);

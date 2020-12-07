@@ -22,6 +22,9 @@ public interface IEnvironment {
 	 */
 	public boolean isWinningPosition(Case c);
 
+	/**
+	 * traite les le changement des ordonnées des voies pour avoir un jeu infini
+	 */
 	public void infinity();
 
 	/**
