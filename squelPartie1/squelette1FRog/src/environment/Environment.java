@@ -3,7 +3,7 @@ package environment;
 import gameCommons.Game;
 import gameCommons.IEnvironment;
 import util.Case;
-
+import util.Direction;
 import java.util.ArrayList;
 
 public class Environment implements IEnvironment {
